@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   List<int> numbersList = [1, 2, 3, 4, 5];
 
@@ -66,4 +64,5 @@ void main() {
   /// This method returns a boolean depending upon whether all elements satisfies the condition or not.
   print(sports.every((element) => element.startsWith('a')));
   print('take method ${sports.take(2)}');
+  print('reverse a list ${List.from(numbersList.reversed)}');
 }
