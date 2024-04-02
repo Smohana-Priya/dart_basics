@@ -21,4 +21,14 @@ void main() {
   print("Replacing ${text.replaceAll("World", "Hi")}");
   print("Replaceing ${text.replaceFirst('l', "L")}");
   print('String Reverse ${text.split('').reversed.join()}');
+  List<String> s = ['apple', 'banana', 'mango'];
+
+  /// join method return string and remove list and comma and space
+  print(s.join()); // applebananamango
+
+  /// join method return string and remove list and comma and space
+  /// same as above
+  print(s.join('')); //applebananamango
+  print(s.join(' ')); //apple banana mango
+  print(s.join(',')); // apple,banana,mango
 }
